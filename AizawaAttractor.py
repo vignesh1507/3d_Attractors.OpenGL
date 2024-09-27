@@ -24,7 +24,7 @@ class Simulation(object):   #create a class with all the following data:
 
     #run algorithm and draw lines
     def Update(self):
-        #here starts the algoritm, it runs 5000 times
+        #here starts the algorithm, it runs 5000 times
         count = 0
         for i in range(0, 1000000, 1): 
             dx = (((self.z - self.b) * self.x) - (self.d * self.y)) * self.deltatime
